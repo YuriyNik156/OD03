@@ -9,4 +9,4 @@ def quick_sort(s):
 
     return quick_sort(left) + center + quick_sort(right)
 
-print(quick_sort([5, 2, 9, 0, 1, 5, 3]))
+print(quick_sort(["груша", "яблоко", "апельсин", "арбуз", "дыня", "банан"]))
